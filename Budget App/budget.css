@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(243, 242, 242);
+  font-family: "Baloo Bhai 2", cursive;
+  color: rgb(83, 83, 83);
+}
+.container-fluid{
+  margin: 17px 80px;
+}
+.row{
+  display: flex;
+}
+.heading{
+  margin: 0px 0px 10px 0px;
+  font-size: 25px;
+}
+.budget-feedback{
+  background-color: rgb(248, 203, 210);
+  border: 2px solid red;
+  padding: 4px 7px;
+  font-size: large;
+}
+.budget-form{
+  border: 3px solid green;
+  margin: 10px 0p 50px 0px;
+  height: 150px;
+  width: 550px;
+  border-radius: 4px;
+}
+.budget-feedback,
+.expense-feedback {
+  background-color: rgb(252, 212, 218);
+  height: 25px;
+  margin: 10px 0px;
+  font-size: 15px;
+  border: 1px solid red;
+  border-radius: 4px;
+  padding: 5px 7px;
+  /* display: none; */
+}
+.budget-form{
+  padding: 0.7rem 0.9rem;
+}
+.command{
+  margin: 5px 0px;
+  font-size: larger;
+}
+.budget-input{
+  height: 30px;
+  width: 525px;
+  border-radius: 5px;
+  padding: 2px 7px;
+  font-size: large;
+  border: 2px solid green;
+}
+.expense-form{
+  border: 3px solid rgb(170, 2, 2);
+  margin: 10px 0px 0px 0px;
+  height: 230px;
+  width: 540px;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+.expense-input{
+  height: 30px;
+  width: 525px;
+  border-radius: 5px;
+  padding: 2px 7px;
+  font-size: large;
+  border: 2px solid rgb(170, 2, 2);
+}
+.budget-submit{
+  height: 38px;
+  margin: 15px 0px;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 8px;
+  border-radius: 5px;
+  transition: all 1s ease;
+  color: green;
+  border: 2px solid green;
+}
+.budget-submit:hover{
+  background-color: green;
+  color: black;
+}
+.expense-submit{
+  height: 38px;
+  margin: 15px 0px;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 8px;
+  border-radius: 5px;
+  transition: all 1s ease;
+  color: rgb(170, 2, 2);
+  border: 2px solid rgb(170, 2, 2);
+}
+.expense-submit:hover{
+  background-color: rgb(170, 2, 2);
+  color: white;
+}
+.money-division{
+  margin: 40px 100px;
+  text-align: center
+}
+.toSet{
+  flex-wrap: wrap;
+}
+.info-title{
+  padding: 0px 60px;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+.budget{
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 15px 0px;
+  color: green;
+}
+.expense{
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 15px 0px;
+  color: rgb(170, 2, 2);
+}
+.balance{
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 15px 0px;
+  color: black;
+}
+.expense-list{
+  margin: 50px 200px;
+}
+.expense-list__info{
+  display: flex;
+  font-size: 23px;
+}
+
+.expense-item{
+  display: flex;
+}
+
+.expenseValue{
+  padding: 0px 60px;
+}
+.expense-amount{
+  padding: 0px 110px;
+}
+
+
+
+
+
+
+
+
+ 
+
